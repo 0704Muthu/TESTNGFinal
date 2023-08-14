@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [ParallelMode]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="ChromeTest(failed)">
+    <parameter name="search" value="toys"/>
+    <classes>
+      <class name="com.testExecution.TS002">
+        <methods>
+          <include name="ValidateTheHomePage"/>
+          <include name="searchAProduct" invocation-numbers="0"/>
+          <include name="aUrl"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testExecution.TS002 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [ParallelMode] -->

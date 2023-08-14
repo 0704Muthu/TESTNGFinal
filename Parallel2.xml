@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="ConfigeReaderTestExecution">
+  <test thread-count="5" parallel="classes" name="Both ChromeandFirefox">
+    <classes>
+      
+      <class name="com.testEvn.TC001"/>
+      <class name="com.testEvn.TC002"/>
+    </classes>
+  </test> <!-- Both ChromeandFirefox -->
+</suite> <!-- ConfigeReaderTestExecution -->

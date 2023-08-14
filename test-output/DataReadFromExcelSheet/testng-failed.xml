@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataReadFromExcelSheet]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="com.testExecution.Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="aUrl"/>
+          <include name="setUp"/>
+          <include name="searchAProduct" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.testExecution.Runner -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [DataReadFromExcelSheet] -->

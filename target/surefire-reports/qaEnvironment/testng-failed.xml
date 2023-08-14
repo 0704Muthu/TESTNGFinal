@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [qaEnvironment]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="ChromeTest(failed)">
+    <parameter name="search" value="toys"/>
+    <classes>
+      <class name="com.testExecution.TS002">
+        <methods>
+          <include name="ValidateTheHomePage"/>
+          <include name="searchAProduct"/>
+          <include name="aUrl"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- com.testExecution.TS002 -->
+      <class name="com.testExecution.TS001">
+        <methods>
+          <include name="aUrl"/>
+          <include name="searchAProduct"/>
+          <include name="screenshot"/>
+          <include name="tearDown"/>
+          <include name="ValidateTheHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testExecution.TS001 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)">
+    <parameter name="search" value="apple"/>
+    <classes>
+      <class name="com.testExecution.TS002">
+        <methods>
+          <include name="ValidateTheHomePage"/>
+          <include name="searchAProduct"/>
+          <include name="aUrl"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- com.testExecution.TS002 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [qaEnvironment] -->

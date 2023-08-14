@@ -1,0 +1,8 @@
+com\base\TestBase.class
+com\pageObject\HomePage.class
+com\pageObject\Login.class
+com\pageObject\LoginPage.class
+com\pageObject\PageObjectManger.class
+com\pageObject\Home.class
+com\pageObject\PageObjectManager2.class
+com\pageObject\BagPage.class
